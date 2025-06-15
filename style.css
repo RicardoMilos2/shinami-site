@@ -1,0 +1,66 @@
+/* CSS rimasto uguale per compatibilità con stile attuale */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: radial-gradient(circle, #1b1b1f, #121214);
+    color: #ffffff;
+    text-align: center;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.hero {
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    color: #ff9de2;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #bbb;
+}
+
+.hero nav {
+    margin-top: 30px;
+}
+
+.hero nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #ffffff;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s;
+}
+
+.hero nav a:hover {
+    border-color: #ff9de2;
+}
+
+.section h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: #ff9de2;
+}
+
+.intro, .highlight {
+    padding: 30px 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+    color: #ddd;
+    font-size: 1.1em;
+}
